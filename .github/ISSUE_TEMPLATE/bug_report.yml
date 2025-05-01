@@ -2,7 +2,7 @@ name: 🐛Bug Report
 description: File a bug report here
 title: "[BUG]: "
 labels: ["bug"]
-assignees: ["AnishDe12020"]
+assignees: ["AlexLam0206"]
 body:
   - type: markdown
     attributes:
@@ -11,7 +11,7 @@ body:
         Make sure there aren't any open/closed issues for this topic 😃
 
   - type: textarea
-    id: bug-description
+    id: Bug Description
     attributes:
       label: Description of the bug
       description: Give us a brief description of what happened and what should have happened
@@ -19,7 +19,7 @@ body:
       required: true
 
   - type: textarea
-    id: steps-to-reproduce
+    id: Steps to Reproduce
     attributes:
       label: Steps To Reproduce
       description: Steps to reproduce the behavior.
@@ -29,7 +29,7 @@ body:
         3. Scroll down to '...'
         4. See error
     validations:
-      required: true
+      required: false
   - type: textarea
     id: additional-information
     attributes:
